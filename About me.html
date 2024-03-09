@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About me</title>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        #intro-text {
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        #container {
+            width: 700px;
+            margin: 20px auto;
+            border: 1px solid #000;
+            text-align: left;
+            position: relative; /* Make the container position relative */
+        }
+
+        #header {
+            background-color: salmon;
+            height: 50px;
+            line-height: 50px;
+            position: relative; /* Make the position relative */
+        }
+
+        #back-to-home {
+            position: absolute;
+            left: 10px;
+            top: 50%; /* Center vertically */
+            transform: translateY(-50%);
+            text-decoration: none;
+            color: #fff;
+        }
+
+        #profile-img {
+            width: 100%;
+        }
+
+        #profile-info {
+            padding: 10px;
+        }
+
+        #about-me,
+        #achievements,
+        #additional-section {
+            background-color: salmon;
+            height: 50px;
+            line-height: 50px;
+        }
+
+        #about-me-content,
+        #achievements-content,
+        #additional-section-content {
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Text outside of the table -->
+    <div id="intro-text">
+        <h1>Welcome to My Personal Page!</h1>
+        <p>Explore more about my life and achievements below.</p>
+    </div>
+
+    <!-- The main container for the table -->
+    <div id="container">
+        <div id="header">
+            <h2>About me</h2>
+        </div>
+
+        <div id="profile-info">
+            <!-- Added hyperlink around the image -->
+            <a href="https://www.facebook.com/seandillinger.jayman/">
+                <div id="profile-img">
+                    <img src="face.jpg" alt="My Photo" style="width: 100%;">
+                </div>
+            </a>
+            <ul>
+                <li>Name: Sean Dillinger</li>
+                <li>Birthdate: July 13</li>
+                <li>Address: Quezon City</li>
+                <li>Hobbies: Sports, Computer Games, Watching Anime</li>
+                <li>Religion: Catholic</li>
+            </ul>
+        </div>
+
+        <div id="about-me">
+            <h2>About Me</h2>
+        </div>
+
+        <div id="about-me-content">
+            <p>My name is Sean Dillinger. I am a student at National University Fairview, a college in the Philippines. I live nearby in Quezon City.</p>
+            <p>I am pretty good at video games, and I am part of our university team for Valorant. I am very competitive when it comes to competitions.</p>
+        </div>
+
+        <div id="achievements">
+            <h2>Achievements</h2>
+        </div>
+
+        <div id="achievements-content">
+            <p>4th place in 2022 Conquest (Valorant)</p>
+            <p>Qualified in 2022 Trials 3 Group Stage (Valorant)</p>
+            <p>Won Bronze Medal in Season 78 Juniors UAAP (Volleyball)</p>
+            <p>Rank 8th First Honor Dean's List (Academics)</p>
+        </div>
+
+
+</body>
+</html>

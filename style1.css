@@ -235,35 +235,54 @@ p {
     font-size: 18px;
 }
 
+.back {
+    position: fixed;
+    top: 10px;
+    left: 360px;
+    z-index: 1000;
+}
+
+.back a {
+    text-decoration: none;
+    color: #EFEFEF;
+    font-weight: bold;
+    font-size: 16px;
+}
+
 @media (max-width: 600px) {
     body {
         font-size: 14px;
     }
 
     .container {
-        grid-template-columns: 1fr; /* Change to a single column layout for small screens */
-        padding: 20px; /* Adjust padding for smaller screens */
-        text-align: center; /* Center text within the container */
+        grid-template-columns: 1fr;
+        padding: 20px;
+        text-align: center;
     }
 
     .container .left_side,
     .container .right_side {
-        padding: 20px; /* Adjust padding for smaller screens */
+        padding: 20px;
     }
 
     .profileText {
-        padding-bottom: 10px; /* Adjust spacing for smaller screens */
+        padding-bottom: 10px;
     }
 
     .profileText h2 {
-        font-size: 1.1em; /* Adjust font size for smaller screens */
+        font-size: 1.1em;
     }
 
     .interest ul {
-        grid-template-columns: repeat(2, 1fr); /* Display interests in two columns for small screens */
+        grid-template-columns: repeat(2, 1fr);
     }
 
-    /* Add more adjustments as needed */
-
-    /* Override or adjust any other styles for small screens */
+    .back {
+        color: #000000;
+        text-transform: none;
+        margin-top: 20px;
+        margin-right: 190px;
+        position: static;
+    }
 }
+
